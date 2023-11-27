@@ -1,0 +1,21 @@
+.Footer {
+    background-color: #232323;
+    padding: 2em 4em 2em 4em;
+
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    color: #FF7DB3;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+}
+
+.credit {
+    color: #878787;
+    font-size: 1em;
+    font-style: italic;
+}
