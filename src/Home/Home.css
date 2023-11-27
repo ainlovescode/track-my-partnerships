@@ -1,0 +1,48 @@
+.Home {
+    padding: 0 6em 0 6em;
+}
+
+.slogan {
+    margin: 2em 0 2em 0;
+    color: #878787;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.callout {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+h1 {
+    text-align: left;
+}
+
+logo {
+    align-self: flex-end;
+}
+
+img {
+    width: 168px;
+}
+
+.home-button {
+    display: flex;
+    background-color: #FF7DB3;
+    color: #FFF2F7;
+    border-radius: 2em;
+    border: 0;
+    padding: 1em;
+    width: 20vw;
+    font-size: 2em;
+    margin: 1em;
+    font-weight: 900;
+    align-self: flex-start;
+    justify-content: center;
+}
