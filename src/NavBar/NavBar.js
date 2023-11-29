@@ -9,8 +9,6 @@ export default function NavBar() {
       </div>
       <div className="links">
             <Link to="about">about</Link>
-            <Link to="creators">creators</Link>
-            <Link to="brands">brands</Link>
             <Link to="login">login</Link>
             <Link to="signup">
                 <button className="sign-up-button">sign up</button>

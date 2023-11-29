@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-const LINKS = ["about", "creators", "brands", "login", "sign up"]
+const LINKS = ["about", "login", "sign up"]
 
 test('renders learn react link', () => {
   render(<App />);
