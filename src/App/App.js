@@ -3,8 +3,6 @@ import { Routes, Route,BrowserRouter } from 'react-router-dom'
 
 import './App.css';
 
-import logo from './logo.svg';
-
 import NavBar from './NavBar/NavBar'
 import Home from './Home/Home.js'
 import Login from './Login/Login.js'
