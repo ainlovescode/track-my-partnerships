@@ -1,0 +1,53 @@
+.Login {
+    position: relative;
+}
+
+.login-background {
+    background-image: url("../../assets/logo.svg");
+    opacity: 0.3;
+    background-position: 10% 70%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-bottom: -90vh;
+    z-index: 1;
+}
+
+.login-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    z-index: 2;
+}
+
+.login-box {
+
+    border-radius: 1em;
+    padding: 2em;
+    background-color: #FFF2F7;
+
+    box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.25);
+    z-index: 3;
+
+}
+
+h1 {
+    text-align: left;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    position: center;
+}
+
+.login-button {
+    font-size: 1em;
+    background-color: #FF7DB3;
+    color: #FFF2F7;
+}
+
+.login-box > h1 {
+    text-align: center;
+}
