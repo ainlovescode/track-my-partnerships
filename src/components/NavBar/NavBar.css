@@ -10,7 +10,6 @@
     font-size: 0.5em;
     padding-left: 1em;
     align-items: center;
-    font-size: 1em;
 }
 
 a {
@@ -25,11 +24,10 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    font-size: 0.5em;
 }
 
 .sign-up-button {
-    background-color: #FF7DB3;
-    color: #FFF2F7;
     border-radius: 1em;
     border: 0;
     padding: 0.5em;

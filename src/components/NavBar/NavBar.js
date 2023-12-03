@@ -1,18 +1,26 @@
 import './NavBar.css';
-import { Link } from "react-router-dom";
+import { Link as RouterLink} from "react-router-dom";
+
+import Link from "@mui/material/Link";
+import Button from "@mui/material/Button";
 
 export default function NavBar() {
   return (
     <div className="NavBar">
       <div className="brand-name">
-        <Link to="home"><h2>track my partnerships</h2></Link>
+        <Link component={RouterLink} color="mytheme.main" to="/"><h2>track my partnerships</h2></Link>
       </div>
       <div className="links">
-            <Link to="about">about</Link>
-            <Link to="login">login</Link>
-            <Link to="signup">
-                <button className="sign-up-button">sign up</button>
-            </Link>
+
+        <Link color="mytheme.dark" component={RouterLink} to="/about">
+          about
+        </Link>
+        <Link color="mytheme.dark" component={RouterLink} to="/login">
+          login
+        </Link>
+        <Link color="mytheme.dark" component={RouterLink} to="/signup">
+            <Button variant="contained" color="mytheme" className="sign-up-button" >sign up</Button>
+        </Link>
       </div>
     </div>
   );

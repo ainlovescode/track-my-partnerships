@@ -32,17 +32,16 @@ img {
     width: 168px;
 }
 
-.home-button {
+.home-signup-container {
     display: flex;
-    background-color: #FF7DB3;
-    color: #FFF2F7;
-    border-radius: 2em;
-    border: 0;
-    padding: 1em;
-    width: 20vw;
-    font-size: 2em;
-    margin: 1em;
-    font-weight: 900;
     align-self: flex-start;
-    justify-content: center;
+}
+
+.home-button {
+    font-size: 1.5em !important;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+    font-weight: 700 !important;
 }

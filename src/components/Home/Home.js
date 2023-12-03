@@ -1,8 +1,10 @@
 import './Home.css';
-import logo from '../logo.svg'
+import logo from '../../assets/logo.svg'
 
-import { Link } from "react-router-dom";
+import { Link as RouterLink} from "react-router-dom";
 
+import Link from "@mui/material/Link";
+import Button from "@mui/material/Button";
 
 export default function Home() {
   return (
@@ -15,9 +17,13 @@ export default function Home() {
         <div className="callout">
             <h1>making you on the ball with partnership deadlines</h1>
 
-            <Link to="signup">
-               <button className="home-button">get started</button>
-            </Link>
+
+
+        <div className="home-signup-container">
+        <Link color="mytheme.dark" component={RouterLink} to="/signup">
+                    <Button variant="contained" color="mytheme" className="home-button" >get started</Button>
+                </Link>
+        </div>
         </div>
         <div className="logo">
             <img src={logo} alt="logo" />

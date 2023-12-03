@@ -29,3 +29,11 @@
 .Footer {
     z-index: 3;
 }
+
+
+.MuiButton-contained {
+    text-transform: lowercase !important;
+    box-shadow: none  !important;
+    border-radius: 2em  !important;
+    font-weight: 900 !important;
+}
